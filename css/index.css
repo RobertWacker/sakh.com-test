@@ -1,0 +1,293 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+div, header, footer {
+  display: block;
+}
+
+body {
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  height: calc(100% - 60px);
+}
+
+header {
+  flex: 2 0 auto;
+  background: #0099e3;
+  height: 40px;
+  color: #fff;
+  padding: 10px 0;
+}
+
+header img {
+  height: 40px;
+}
+
+.header__inner {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.header__logo {
+  width: 30%;
+}
+
+nav {
+  text-align: right;
+  align-items: center;
+  vertical-align: center;
+  line-height: 40px;
+  font-size: 16px;
+  width: 70%;
+}
+
+nav a {
+    justify-content: flex-end;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+
+nav span {
+  color: #093e5a;
+  font-weight: bold;
+  font-size: 14px;
+    margin: 13px 10px;
+    background: #0984c5;
+    border-radius: 6px;
+    padding: 4px 7px;
+    line-height: 13px;
+    border: 1px solid #027cbd;
+}
+
+.user__photo {
+  border-radius: 50%;
+  height: 40px;
+}
+
+.user__photo {
+  vertical-align: middle;
+}
+
+.page {
+  flex: 1 0 auto;
+  width: 1000px;
+  margin: 15px auto;
+}
+
+form {
+  margin-bottom: 15px;
+}
+
+p {
+  border-left: 4px solid #0099ea;
+  margin: 15px 0;
+  padding: 10px;
+}
+
+ul {
+  list-style: none;
+}
+
+footer {
+
+  flex: 0 0 auto;
+
+}
+
+.footer__main {
+
+}
+
+.footer__subpanel {
+  padding: 25px 0;
+  color: #666;
+  background: #f6f6f6;
+  text-align: center;
+}
+
+
+/*+++++++++++++++++++++++++*/
+  .log {
+    border: 1px solid #eaeaea;
+    width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+
+  .log__header {
+    padding: 7px 0;
+    color: #615a5a;
+    text-align: center;
+    background: #f5f4f4;
+  }
+
+  .log__content {
+    padding: 15px;
+  }
+
+  .log__minus {
+    background: #ea7a7a;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #c15154;
+    border-radius: 5px;
+  }
+
+  .log__plus {
+    background: #7aeaae;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #259c6b;
+    border-radius: 5px;
+  }
+
+  .log__int {
+    font-size: 25px;
+    font-weight: bolder;
+  }
+
+  .log__minus .log__int {
+    color: #823235;
+  }
+  .log__plus .log__int {
+    color: #1a7751;
+  }
+
+  .balance__block {
+    margin-bottom: 15px;
+    font-size: 25px;
+  }
+
+  .transfer {
+    display: inline-flex;
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+
+  .transfer__label {
+    background: #0099ea;
+      color: #0d4f75;
+    padding: 10px;
+
+  }
+
+  input[type='number'] {
+    border: none;
+    line-height: 100%;
+    width: 100%;
+    font-size: 16px;
+    padding: 0 10px;
+    outline: none;
+    color: #222;
+    display: block;
+  }
+
+
+
+/*================= Таблица ===============*/
+
+.table {
+  display: table;
+  table-layout: auto;
+  width: 100%;
+  background: #fff;
+  box-sizing: border-box;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  overflow: none;
+}
+
+.table__header {
+  background: #f6f7fb;
+  line-height: 30px;
+  padding: 5px;
+  display: table-row;
+}
+
+.table__header a {
+  text-decoration: none;
+  color: #656464;
+}
+
+.table__header a:hover {
+  text-decoration: underline;
+}
+
+.table__header .table__cell {
+  font-weight: bold;
+}
+
+.table__row {
+  display: table-row;
+}
+
+.table__row:hover {
+  background: #f8f9fd;
+}
+
+.table__cell {
+  display: table-cell;
+  padding: 15px 10px;
+  text-transform: capitalize;
+  border-bottom: 1px solid #e2e2e8;
+  vertical-align: middle;
+}
+
+.table__row:last-child .table__cell {
+  border: none;
+}
+
+.login {
+  font-weight: bold;
+  color: #000;
+  text-decoration: none;
+}
+
+.login:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
